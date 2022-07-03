@@ -7,7 +7,6 @@ set charpool=0123456789abcdefghijklmnopqrstuvw
 
 set len_charpool=16
 
-
 set gen_str=
 for /L %%b IN (1, 1, %len%) do (
   set /A rnd_index=!RANDOM! * %len_charpool% / 32768
